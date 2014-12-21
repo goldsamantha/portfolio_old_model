@@ -3,17 +3,17 @@ GENERAL
 ***********************************/
 h2{
 	padding: 0 auto 0 auto;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px 0;
 	font-size: 1.5em;
-	font-weight: normal;
+	font-weight: lighter;
 	line-height: normal;
 	color: #323b45;
 }
 
 h1{
 	padding: 0 auto 0 auto;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px 0;
 	font-size: 2.2em;
 	font-weight: lighter;
@@ -28,7 +28,7 @@ HEADER
 
 header{
   background-color: #EE3469;
-  padding: 5% 0 5% 0;
+  padding: 3% 0 3% 0;
   margin: 0 auto 0 auto;
   width: 100%;
   display: block;
@@ -119,9 +119,9 @@ xtype
 }
 .cd-headline.type .cd-words-wrapper::after {
   /* vertical bar */
-  content: '';
+  content: 'abcd';
   position: absolute;
-  right: 0;
+  left:100px;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -132,6 +132,7 @@ xtype
   height: 90%;
   width: 1px;
   background-color: #aebcb9;
+  visibility: hidden;
 }
 .cd-headline.type .cd-words-wrapper.waiting::after {
   -webkit-animation: cd-pulse 1s infinite;
