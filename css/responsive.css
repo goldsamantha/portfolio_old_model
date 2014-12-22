@@ -5,16 +5,16 @@
 		bottom: 0;
 
 	}
-
+	/*
 	header{
-		/*background-color: #000;*/
+		background-color: #000;
 	}
 	.parallax__layer--base {
-		top: 55%;
+		top: 35%;
 	}
 	.parallax__layer--back {
 		top: -20%;
-	}
+	}*/
 
 
 
@@ -28,15 +28,12 @@
 	header{
 		/*background-color: #a5a5a5;*/
 	}
-	.parallax{
+/*	.parallax{
 		top:55%;
 
 	}
-/*	.parallax__layer--base {
-		top: 55%;
-	} */
 	.parallax__layer--back {
 		top: -30%;
-	}
+	}*/
 
 }
