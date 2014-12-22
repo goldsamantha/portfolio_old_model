@@ -48,6 +48,36 @@ header img{
 }
 
 
+
+/**********************************
+PARALLAX
+***********************************/
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  background-color: #fff;
+  transform: translateZ(0);
+  top: 55%;
+}
+.parallax__layer--back {
+  top: -20%;
+  transform: translateZ(-1px) scale(2);
+}
+
+
+
+
 /**********************************
 BODY
 ***********************************/
@@ -67,6 +97,7 @@ BODY
 .wireframe{
 /*  visibility: hidden;
 */
+  background-color: #fff;
   display: block;
   width: 100%;
 
@@ -82,7 +113,7 @@ FOOTER
 ***********************************/
 footer{
 	background-color: #323b45;
-	padding: 2% 0 2% 0;
+	padding: 2% 0 8% 0;
 }
 
 footer ul{
