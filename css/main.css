@@ -57,6 +57,9 @@ PARALLAX
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: #fff;/* #94CC66;
+*/
+  border: 0;
 }
 .parallax__layer {
   position: absolute;
@@ -68,10 +71,14 @@ PARALLAX
 .parallax__layer--base {
   background-color: #fff;
   transform: translateZ(0);
-  top: 55%;
+  top: 20%;
 }
 .parallax__layer--back {
-  top: -20%;
+
+  border: 0; 
+
+  background-color: #fff;  /*#3CA2B4;*/
+  top: -15%;
   transform: translateZ(-1px) scale(2);
 }
 
@@ -84,8 +91,8 @@ BODY
 
 
 .body-copy{
-	margin: 5% auto 5% auto;
-	padding: 0 20% 0 20%;
+	margin: 0 auto 0 auto;
+	padding: 5% 20% 0 20%;
 	text-align: center;
 }
 
