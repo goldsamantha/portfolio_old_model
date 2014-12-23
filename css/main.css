@@ -11,7 +11,7 @@ h2{
 	color: #323b45;
 }
 
-h1{
+h1, h3{
 	padding: 0 auto 0 auto;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px 0;
@@ -158,6 +158,8 @@ SKILLS
 
 .tools {
   color: #a5a5a5;
+  margin:0 auto 0 auto;
+  padding: 0% 15% 0% 15%;
 }
 
 
