@@ -91,7 +91,7 @@ BODY
 
 .body-copy{
 	margin: 0 auto 0 auto;
-	padding: 5% 20% 0 20%;
+	padding: 5% 10% 0 10%;
 	text-align: center;
   overflow-y: hidden;
 }
@@ -110,10 +110,55 @@ BODY
 
 }
 
+.end-copy{
+  margin: 0 auto 0 auto;
+  padding: 5% 10% 10% 10%;
+  text-align: center;
+  overflow-y: hidden; 
+}
+
+.end-copy a{
+  color: #ee3469;
+  text-decoration: none;
+}
+
+
+
 .prof-pic {
   width: 100%;
   display: block;
 }
+
+/**********************************
+SKILLS
+***********************************/
+#skills{
+  margin: 0 auto 0 auto;
+  padding: 4%;
+}
+
+#skills img{
+  width:80%;
+  padding-bottom: 5%;
+}
+
+#skills li, p{
+  margin: 0 auto 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  line-height: normal;
+
+}
+
+.description{
+  color: #323b45;
+}
+
+.tools {
+  color: #a5a5a5;
+}
+
 
 /**********************************
 FOOTER

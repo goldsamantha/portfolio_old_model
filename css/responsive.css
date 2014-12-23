@@ -5,10 +5,16 @@
 		bottom: 0;
 
 	}
-	/*
-	header{
+	
+/*	header{
 		background-color: #000;
 	}
+*/
+
+
+
+
+	/*
 	.parallax__layer--base {
 		top: 35%;
 	}
@@ -25,8 +31,33 @@
 	header img{
 		max-width: 20%;
 	}
-	header{
-		/*background-color: #a5a5a5;*/
+	/*header{
+		background-color: #a5a5a5;
+	}*/
+
+	#skills{
+		padding: 0 0 0 0;
+		width: 100%;
+	}	
+
+	#skills-list{
+		margin: 0 auto 0 auto;
+		width: 30%;
+		padding: 5% 1.5% 5% 1.5;
+		display: inline-table;
+	}
+
+	.end-copy{
+		padding: 10% 20% 5% 20%;
+		display: block;
+	}
+
+	.body-copy{
+		padding: 5% 5% 0 5%;
+	}
+
+	h1{
+		font-size: 1.5em;
 	}
 /*	.parallax{
 		top:55%;
