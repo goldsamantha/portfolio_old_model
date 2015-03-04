@@ -11,14 +11,14 @@ h2{
 	color: #323b45;
 }
 
-h1, h3{
+h1, h3, .header-copy{
 	padding: 0 auto 0 auto;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 15px 0;
 	font-size: 2.2em;
 	font-weight: lighter;
 	line-height: normal;
-	color: #323b45;
+	color: #323b45; /*grey/blue color*/
 }
 
 
@@ -31,13 +31,21 @@ HEADER
 ***********************************/
 
 header{
-  background-color: #EE3469;
+  background-color: #07c0ea;  /* #EE3469;   hot pink */
   padding: 3% 0 3% 0;
   margin: 0 auto 0 auto;
   width: 100%;
   display: block;
 
 }
+
+
+.header-copy{
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+}
+
 
 header img{
 
@@ -97,8 +105,8 @@ BODY
 }
 
 .body-copy a{
-	color: #ee3469;
-	text-decoration: none;
+	color: #07c0ea; /*#ee3469;*/	
+  text-decoration: none;
 }
 
 .wireframe{
@@ -118,7 +126,7 @@ BODY
 }
 
 .end-copy a{
-  color: #ee3469;
+  color: #07c0ea;
   text-decoration: none;
 }
 
@@ -127,6 +135,10 @@ BODY
 .prof-pic {
   width: 100%;
   display: block;
+}
+
+.cd-intro{
+  padding-bottom: 15%;
 }
 
 /**********************************
@@ -168,7 +180,7 @@ FOOTER
 ***********************************/
 footer{
 	background-color: #323b45;
-	padding: 2% 0 8% 0;
+	padding: 2% 0 3% 0;
 }
 
 footer ul{
