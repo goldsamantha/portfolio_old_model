@@ -10,6 +10,10 @@
 	position: relative;
 }
 
+.break{
+  clear: both;
+}
+
 .load{
 	background:
 		linear-gradient(
