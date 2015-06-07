@@ -1,4 +1,4 @@
 sgoldst3.github.io
 ==================
 
-A little love note to a great company
+This is my portfolio site. Built with HTML, JavaScript, CSS, jQuery, and D3 
