@@ -7,9 +7,9 @@ $('.img-list').hover(function(){
 });
 
 var fillPage = function(name){
-  var previous = findPrev(name) +".html";
+  var previous = findPrev(name);
   var nexttxt = findNext(name);
-  var next = findNext(name) +".html";
+  var next = findNext(name);
   $(".prev").attr('href', previous);
   $(".next").attr('href', next);
 

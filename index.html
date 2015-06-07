@@ -255,8 +255,7 @@
           "rgba(248,155,2,.85)",  "rgba(27,41,63,.85)", "rgba(16,0,36,.85)"];
 
       var allmods = $('.opacity-bg');
-      // var pages = ["spotlight", "vuid","print","muvr","jyve", "more"]; //, "muvr", "more"];
-      var pages = ["spotlight", "vuid","muvr","jyve", "print", "more"]; //, "muvr", "more"];
+      var pages = ["spotlight", "vuid","muvr","jyve", "print", "more"];
 
       for (var i=0; i< allmods.length; i++){
         if (i != 0){
@@ -285,7 +284,7 @@
         $('body').fadeOut(800, function(){
           var loc;
           for (var i=0; i < allmods.length; i++){
-            window.location.href="projects/"+ current_loc+".html";
+            window.location.href="projects/"+ current_loc;
           }
         });
       });
